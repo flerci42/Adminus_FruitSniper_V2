@@ -721,6 +721,9 @@ local function CYVHVHQ_fake_script() -- Main.Load
 		if Fruit.Name == "Kilo Fruit" then
 			Fruit2 = "Kilo-Kilo"
 		end
+		if Fruit.Name == "Rocket Fruit" then
+			Fruit2 = "Rocket-Rocket"
+		end
 		if Fruit.Name == "Spin Fruit" then
 			Fruit2 = "Spin-Spin"
 		end
@@ -775,11 +778,23 @@ local function CYVHVHQ_fake_script() -- Main.Load
 		if Fruit.Name == "Barrier Fruit" then
 			Fruit2 = "Barrier-Barrier"
 		end
+		if Fruit.Name == "Ghost Fruit" then
+			Fruit2 = "Ghost-Ghost"
+		end
 		if Fruit.Name == "Magma Fruit" then
 			Fruit2 = "Magma-Magma"
 		end
+		if Fruit.Name == "Quake Fruit" then
+			Fruit2 = "Quake-Quake"
+		end
 		if Fruit.Name == "Door Fruit" then
 			Fruit2 = "Door-Door"
+		end
+		if Fruit.Name == "Sound Fruit" then
+			Fruit2 = "Sound-Sound"
+		end
+		if Fruit.Name == "Portal Fruit" then
+			Fruit2 = "Portal-Portal"
 		end
 		if Fruit.Name == "Human: Buddha Fruit" then
 			Fruit2 = "Human-Human: Buddha"
@@ -789,6 +804,9 @@ local function CYVHVHQ_fake_script() -- Main.Load
 		end
 		if Fruit.Name == "Bird: Phoenix Fruit" then
 			Fruit2 = "Bird-Bird: Phoenix"
+		end
+		if Fruit.Name == "Pain Fruit" then
+			Fruit2 = "Pain-Pain"
 		end
 		if Fruit.Name == "Rumble Fruit" then
 			Fruit2 = "Rumble-Rumble"
@@ -802,6 +820,12 @@ local function CYVHVHQ_fake_script() -- Main.Load
 		if Fruit.Name == "Gravity Fruit" then
 			Fruit2 = "Gravity-Gravity"
 		end
+		if Fruit.Name == "Mammoth Fruit" then
+			Fruit2 = "Mammoth-Mammoth"
+		end
+		if Fruit.Name == "T-Rex Fruit" then
+			Fruit2 = "T-Rex-T-Rex"
+		end
 		if Fruit.Name == "Dough Fruit" then
 			Fruit2 = "Dough-Dough"
 		end
@@ -811,11 +835,17 @@ local function CYVHVHQ_fake_script() -- Main.Load
 		if Fruit.Name == "Venom Fruit" then
 			Fruit2 = "Venom-Venom"
 		end
+		if Fruit.Name == "Spirit Fruit" then
+			Fruit2 = "Spirit-Spirit"
+		end
 		if Fruit.Name == "Control Fruit" then
 			Fruit2 = "Control-Control"
 		end
 		if Fruit.Name == "Soul Fruit" then
 			Fruit2 = "Soul-Soul"
+		end
+		if Fruit.Name == "Kitsune Fruit" then
+			Fruit2 = "Kitsune-Kitsune"
 		end
 		if Fruit.Name == "Dragon Fruit" then
 			Fruit2 = "Dragon-Dragon"
