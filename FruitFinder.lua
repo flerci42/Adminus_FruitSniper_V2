@@ -171,3 +171,5 @@ local function Main()
 	ServerHop()
 
 end
+
+Main()
