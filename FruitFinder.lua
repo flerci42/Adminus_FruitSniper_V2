@@ -8,7 +8,7 @@ local SETTINGS = _G.FruitSniperSettings or {
 
 local args = {
     [1] = "SetTeam",
-    [2] = TEAM
+    [2] = SETTINGS.Team
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
 
