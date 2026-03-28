@@ -1,6 +1,11 @@
 repeat task.wait() until game:IsLoaded()
 local AdminusUI = loadstring(game:HttpGet('https://raw.githubusercontent.com/flerci42/Adminus_FruitSniper_V2/refs/heads/main/GraphicalUserInterface.lua'))()
 
+local SETTINGS = _G.FruitSniperSettings or {
+    Team = "Pirates",
+    Fruits = {}
+}
+
 local args = {
     [1] = "SetTeam",
     [2] = SETTINGS.Team
