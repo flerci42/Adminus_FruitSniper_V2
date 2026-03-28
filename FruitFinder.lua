@@ -5,10 +5,11 @@ local SETTINGS = _G.FruitSniperSettings or {
     Team = "Pirates",
     Fruits = {}
 }
+local TEAM = SETTINGS.Team or "Pirates"
 
 local args = {
     [1] = "SetTeam",
-    [2] = SETTINGS.Team
+    [2] = TEAM
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
 
