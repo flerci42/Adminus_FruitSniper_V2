@@ -3,7 +3,7 @@ local SETTINGS = _G.FruitSniperSettings or {
     Fruits = {}
 }
 
-local TEAM = SETTINGS.Team or "Pirates"
+local TEAM = SETTINGS.Team
 
 local args = {
     [1] = "SetTeam",
