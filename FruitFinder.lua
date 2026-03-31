@@ -1,3 +1,7 @@
+local AdminusUI = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/flerci42/Adminus_FruitSniper_V2/refs/heads/main/GraphicalUserInterface.lua"
+))()
+
 local SETTINGS = _G.FruitSniperSettings or {
     Team = "Pirates",
     Fruits = {}
