@@ -104,21 +104,14 @@ local function CreateESP(fruit)
 end
 
 local function TweenTo(position)
-    local targetPos = Vector3.new(position.X, HRP.Position.Y, position.Z)
     local distance = (HRP.Position - targetPos).Magnitude
     local time = distance / TWEEN_SPEED
 
     local tween = TweenService:Create(
         HRP,
-        TweenInfo.new(time, Enum.EasingStyle.Linear),
-        {CFrame = CFrame.new(targetPos)}
-    )
-
---[[    local tween = TweenService:Create(
-        HRP,
         TweenInfo.new(time,Enum.EasingStyle.Linear),
         {CFrame = CFrame.new(position)}
-    )]]
+    )
     DistanceText.Text = 'Fruit Distance: <font color="rgb(255,255,255)" weight="Regular">'..math.floor(distance)..'</font>'
     TweenStatus.Text = 'Tweening Status: <font color="rgb(0,170,255)" weight="Regular">Tweening...</font>'
     tween:Play()
